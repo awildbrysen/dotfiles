@@ -1,0 +1,27 @@
+source ~/.vimrc
+
+" ideavim plugins
+set ideajoin
+set multiple-cursors
+
+" intellij actions
+map <leader>s :action Switcher<CR>
+map <leader>a :action SearchEverywhere<CR>
+map <leader>b :action Git.Branches<CR>
+map <leader>c :action CheckinProject<CR>
+map <leader>r :action ChangesView.Revert<CR>
+map <leader>d :action ChooseDebugConfiguration<CR>
+map <leader>f :action ChooseRunConfiguration<CR>
+map <leader>h :action Compile<CR>
+map <leader>; :action ShowProjectStructureSettings<CR>
+map <leader>q :action ViewStatusBar<CR>
+map <leader>n :action Macro.OpenNotes<CR>
+map <leader>p :action AttachProfilerToLocalProcess<CR>
+map <c-p> :action SearchEverywhere<CR>
+map \r :action ReformatCode<CR>
+map \w :action EditorToggleUseSoftWraps<CR>
+map \t :action ActivateTerminalToolWindow<CR>
+
+set highlightedyank
+
+let g:highlightedyank_highlight_duration = "1500"
